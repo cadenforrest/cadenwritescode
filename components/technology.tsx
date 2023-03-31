@@ -36,6 +36,51 @@ export const Technology = () => {
               <span className="mt-2 text-sm font-medium text-gray-900">Vercel</span>
             </div>
             <div className="flex flex-col items-center">
+              <Image src="/postgresql.png"
+                alt="PostgreSQL logo"
+                width={48}
+                height={48}
+                className="square-full"
+              />
+              <span className="mt-2 text-sm font-medium text-gray-900">PostgreSQL</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <Image src="/mongo.png"
+                alt="MongoDB logo"
+                width={48}
+                height={48}
+                className="square-full"
+              />
+              <span className="mt-2 text-sm font-medium text-gray-900">MongoDB</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <Image src="/docker.png"
+                alt="Docker logo"
+                width={48}
+                height={48}
+                className="square-full"
+              />
+              <span className="mt-2 text-sm font-medium text-gray-900">Docker</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <Image src="/python.png"
+                alt="Python logo"
+                width={48}
+                height={48}
+                className="square-full"
+              />
+              <span className="mt-2 text-sm font-medium text-gray-900">Python</span>
+            </div>
+            <div className="flex flex-col items-center">
+              <Image src="/redis.png"
+                alt="Redis logo"
+                width={48}
+                height={48}
+                className="square-full"
+              />
+              <span className="mt-2 text-sm font-medium text-gray-900">Redis</span>
+            </div>
+            <div className="flex flex-col items-center">
               <Image src="/typescript.png"
                 alt="typescript logo"
                 width={48}
