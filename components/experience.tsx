@@ -38,27 +38,12 @@ const Job = ({
   jobTitle,
 }: {
   companyName: String;
-  jobDescription: String;
+  jobDescription:  String[];
   jobTitle: String;
 }) => {
   return (
     <div className="relative">
       <dt>
-        <span className="absolute h-6 w-6 rounded-full bg-indigo-500 text-white flex items-center justify-center">
-          <svg
-            className="h-4 w-4"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            aria-hidden="true"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10 2a4 4 0 100 8 4 4 0 000-8zM4 8a4 4 0 118 0 4 4 0 01-8 0zm12 0a4 4 0 118 0 4 4 0 01-8 0zM2 14c0-2.67 5.33-4 8-4s8 1.33 8 4v2H2v-2z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </span>
         <div className="ml-9">
           <div className="text-lg leading-6 font-medium text-gray-900">
             {companyName}
@@ -66,7 +51,9 @@ const Job = ({
           <div className="text-md leading-6 font-medium text-gray-900">
             {jobTitle}
           </div>
-          <div className="mt-2 text-base text-gray-500">{jobDescription}</div>
+          {jobDescription.map((bullet, index) =>{
+            return(<li key={index} className="mt-2 text-base text-gray-500">{bullet}</li>)
+          })}
         </div>
       </dt>
     </div>

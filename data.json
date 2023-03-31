@@ -1,47 +1,43 @@
 {
   "About": {
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam ac bibendum tempus, nunc lorem commodo magna, in consequat erat ex sit amet dolor. Ut ornare lobortis sapien, vel lobortis libero commodo ac. Proin finibus turpis quis massa accumsan, eget auctor mauris auctor. Sed at diam est. Nunc non arcu non quam luctus imperdiet. Mauris eget felis orci."
+    "Description": "Nice to meet you! I am currently looking for work in any Software Engineering roles."
   },
   "Experience": {
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam ac bibendum tempus, nunc lorem commodo magna, in consequat erat ex sit amet dolor. Ut ornare lobortis sapien, vel lobortis libero commodo ac. Proin finibus turpis quis massa accumsan, eget auctor mauris auctor. Sed at diam est. Nunc non arcu non quam luctus imperdiet. Mauris eget felis orci.",
+    "Description": "I hold a B.S in Computer Science from Texas State University. I've writted code as a hobby since I was a kid. Since graduating, I've had the opportunity to build a lot of cool stuff for Red Canary and Sock Club. My roles at both of these companies have been full stack(ish), with about an 80/20 split between backend and frontend work, respectively. I have experience with both building and deploying software projects from their infancy, as well as hopping into large codebases and adding new features. I can quickly write clean, well-tested and understandable code.",
     "Jobs": [
       {
         "CompanyName": "Red Canary",
         "JobTitle": "Software Engineer",
-        "JobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam ac bibendum tempus, nunc lorem commodo magna, in consequat erat ex sit amet dolor. Ut ornare lobortis sapien, vel lobortis libero commodo ac. Proin finibus turpis quis massa accumsan, eget auctor mauris auctor. Sed at diam est. Nunc non arcu non quam luctus imperdiet. Mauris eget felis orci."
+        "JobDescription": [
+          "Designed, tested, and implemented event-driven automation features for our customers using Ruby on Rails, React, Redis, Sidekiq, and PostgreSQL. This saved time and effort for our customers as well as our CSMs who managed upwards of a hundred thousand endpoints.",
+          "Integrated our system with third party APIs and products such as: ChurnZero, Slack, PagerDuty, Twilio, Microsoft Defender, Crowdstrike, Carbon Black Cloud, and more.",
+          "Handled and responded to incidents on our engineering pager system.",
+          "Assured quality of features by writing automated unit and integration tests with RSpec, Docker, and CircleCI.",
+          "Tracked and created performance metrics dashboards using Prometheus and Grafana",
+          "Collaborated in a SCRUM environment with Customer Success Managers, Product Managers, Engineers, and Incident Handlers to carry out projects and proposals"
+        ]
       },
       {
-        "CompanyName": "Red Canary",
+        "CompanyName": "Sock Club",
         "JobTitle": "Software Engineer",
-        "JobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam ac bibendum tempus, nunc lorem commodo magna, in consequat erat ex sit amet dolor. Ut ornare lobortis sapien, vel lobortis libero commodo ac. Proin finibus turpis quis massa accumsan, eget auctor mauris auctor. Sed at diam est. Nunc non arcu non quam luctus imperdiet. Mauris eget felis orci."
-      },
-      {
-        "CompanyName": "Red Canary",
-        "JobTitle": "Software Engineer",
-        "JobDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra, diam ac bibendum tempus, nunc lorem commodo magna, in consequat erat ex sit amet dolor. Ut ornare lobortis sapien, vel lobortis libero commodo ac. Proin finibus turpis quis massa accumsan, eget auctor mauris auctor. Sed at diam est. Nunc non arcu non quam luctus imperdiet. Mauris eget felis orci."
+        "JobDescription": [
+          "Designed and implemented a user portal written with Ruby on Rails, Next.JS, PostgreSQL, Redis, Sidekiq, Heroku, NGINX, and AWS. This was a critical tool for our customers and employees which managed designs, tracked production, stored user information, handled asyncrhonous tasks, and took payments.",
+          "Developed automated sock esign software. Automatically fetched brand assets based on the business email of the customer, and generated hundereds of sock designs for them to choose from. ",
+          "Collaborated with management to grow the Engineering team by adding new engineers and a Product Manager.",
+          "Introduced SCRUM/Agile methodologies to assist with the management of the engineering team.",
+          "Mentored and assisted the junior engineers that were hired, brought them up to speed on the system and handed off responsibilities.",
+          "Wrote engineering plan and lead the technical execution of porting our entire Rails/Sprockets frontend to React/Next.JS. Developed and deployed an NGINX reverse proxy to keep everything behind the company domain. Implemented secure and RESTful APIs, using stale-while-revalidate caching patterns to provide a responsive user experience when performing CRUD tasks. Implemented an automated CI/CD pipeline using Cypress, Docker, CircleCI, PostgreSQL, and Rails.",
+          "Wrote engineering plan for and lead the technical execution on implementing an event-driven manufacturing management system, automating production assignment and production tasks between several different manufacturing facilities. Facilitated the manufacturing, shipment, and fulfillment of hundreds of thousands of custom socks. This saved our supply chain team countless hours, allowing a team of 3 to effectively manage the production of hundreds of thousands of socks without adding to the team headcount.",
+          "Integrated our entire application to sync with Hubspot to track sales metrics and overall impact of our software on revenue. Created webhooks, cron jobs, and Sidekiq tasks to ensure that our data stayed in sync at all times."
+        ]
       }
     ]
   },
   "Reviews": [
     {
-      "reviewerName": "John Doe",
-      "reviewerOccupation": "CEO",
-      "reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim purus in massa molestie, eget pharetra mi laoreet. Maecenas suscipit orci vel mi dictum sollicitudin."
-    },
-    {
-      "reviewerName": "John Doe",
-      "reviewerOccupation": "CEO",
-      "reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim purus in massa molestie, eget pharetra mi laoreet. Maecenas suscipit orci vel mi dictum sollicitudin."
-    },
-    {
-      "reviewerName": "John Doe",
-      "reviewerOccupation": "CEO",
-      "reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim purus in massa molestie, eget pharetra mi laoreet. Maecenas suscipit orci vel mi dictum sollicitudin."
-    },
-    {
-      "reviewerName": "John Doe",
-      "reviewerOccupation": "CEO",
-      "reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim purus in massa molestie, eget pharetra mi laoreet. Maecenas suscipit orci vel mi dictum sollicitudin."
+      "reviewerName": "Brian Davis",
+      "reviewerOccupation": "Enterprise Architect at Red Canary",
+      "reviewContent": "Caden is an amazing software engineer, capable of learning complex systems quickly and understanding where things need fixing and where they don't. At Red Canary, Caden demonstrated this by coming up to speed on our system quickly, and presenting complex engineering designs to a large group of people - showcasing his impressive verbal and written communication skills alongside his engineering ability. He would be a strong asset to any team!"
     }
   ]
 }

@@ -15,9 +15,9 @@ export const Contact = () => {
   });
   const [captchaToken, setCaptchaToken] = useState("");
 
-  // const handleCaptchaChange = (token) => {
-  //   setCaptchaToken(token);
-  // };
+  const handleCaptchaChange = (token) => {
+    setCaptchaToken(token);
+  };
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm((prev) => ({ ...prev, [event.target.name]: event.target.value }));
@@ -35,7 +35,7 @@ export const Contact = () => {
     <section className="bg-white">
       <div className="max-w-6xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
         <div className="max-w-lg mx-auto lg:max-w-none">
-          <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-y-6">
+          {/* <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-y-6">
             <div>
               <label htmlFor="name" className="sr-only">
                 Name
@@ -91,10 +91,10 @@ export const Contact = () => {
                 Send
               </button>
             </div>
-          </form>
+          </form> */}
           <div className="mt-8">
             <p className="text-base leading-6 text-gray-500">
-              Or contact me through my email:{" "}
+              {/* Or contact me through my email:{" "} */}
               <a href="mailto:your-email@domain.com" className="text-indigo-600 hover:text-indigo-500">
                 cadenforrest@gmail.com
               </a>

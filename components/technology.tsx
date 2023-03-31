@@ -65,8 +65,8 @@ export const Technology = () => {
             <div className="flex flex-col items-center">
               <Image src="/python.png"
                 alt="Python logo"
-                width={48}
-                height={48}
+                width={15}
+                height={15}
                 className="square-full"
               />
               <span className="mt-2 text-sm font-medium text-gray-900">Python</span>
