@@ -15,9 +15,9 @@ export const Contact = () => {
   });
   const [captchaToken, setCaptchaToken] = useState("");
 
-  const handleCaptchaChange = (token) => {
-    setCaptchaToken(token);
-  };
+  // const handleCaptchaChange = (token) => {
+  //   setCaptchaToken(token);
+  // };
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm((prev) => ({ ...prev, [event.target.name]: event.target.value }));
