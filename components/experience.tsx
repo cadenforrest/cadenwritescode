@@ -9,7 +9,7 @@ export const Experience = () => {
             {data.Experience.Description}
           </p>
           <div className="mt-10">
-            <div className="mt-4 space-y-4">
+            <div className="mt-4 space-y-10">
               {data.Experience.Jobs.map(
                 ({ CompanyName, JobDescription, JobTitle }) => {
                   return (
