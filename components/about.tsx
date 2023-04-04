@@ -12,6 +12,15 @@ export const About = () => {
           <p className="mt-3 max-w-3xl text-lg text-gray-500">
             {data.About.Description}
           </p>
+          <div className="mt-8 flex">
+            <a href="/resume.pdf" className="mr-4">
+              <button
+                type="button"
+                className="inline-flex items-center px-4 py-2 border font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none">
+                Download Resume
+              </button>
+            </a>
+          </div>
         </div>
         <div className="mt-8 lg:mt-0 lg:ml-8 flex justify-center ">
         <div className="relative rounded-full border-2 border-gray-400 overflow-hidden w-40 h-40">
